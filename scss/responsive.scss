@@ -1,0 +1,44 @@
+@media (max-width: 1023px) {}
+
+.listaInicio {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.listaInicio .boton {
+    display: none;
+}
+
+.bannerContenido p {
+    font-size: 2.5rem;
+}
+
+.destinos {
+    margin: 5vh;
+    font-size: 2rem;
+}
+
+.secciones h3,
+.secciones p {
+    font-size: inherits;
+}
+
+.contenedorSecciones {
+    grid-template-columns: 1fr 1fr;
+}
+
+.contenedorGuias {
+    flex-direction: column;
+}
+
+.footerSecciones {
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}

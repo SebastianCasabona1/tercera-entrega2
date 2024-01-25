@@ -1,0 +1,53 @@
+.color {
+    background-color: cornflowerblue;
+}
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color-negro;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    box-shadow: 0px 2px 4px $color-2;
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px $color-2;
+        font-size: 2.5rem;
+    }
+}
+
+.boton {
+    background-color: $color-rojo;
+    color: blanchedalmond;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+
+    &:hover {
+        background-color: aqua;
+        color: blueviolet;
+        cursor: pointer;
+    }
+}
+
+.encabezado li {
+    list-style: none;
+    margin: 10px;
+    color: $color-negro;
+    font-size: 1.5rem;
+}
+
+.encabezado li a {
+    @include anclas;
+}
+
+.encabezado li a:hover {
+    color: $color-rojo;
+}

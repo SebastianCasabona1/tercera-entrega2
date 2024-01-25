@@ -1,0 +1,32 @@
+.banner {
+    background-image: url(../imagenes/banner-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContenido {
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: $color-blanco;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: $color-blanco;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .boton {
+        margin-top: 10px;
+    }
+}

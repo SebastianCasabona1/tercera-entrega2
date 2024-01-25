@@ -1,0 +1,30 @@
+.banner {
+  background-image: url(../imagenes/banner-1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContenido h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.bannerContenido p {
+  color: #fafafa;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.bannerContenido .boton {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=banner.css.map */
